@@ -4,19 +4,25 @@ const e = document.querySelector('.E')
 const f = document.querySelector('.F')
 const g = document.querySelector('.G')
 const a = document.querySelector('.A')
+const b = document.querySelector('.B')
+const db = document.querySelector('.Db')
+const eb = document.querySelector('.Eb')
+const gb = document.querySelector('.Gb')
+const ab = document.querySelector('.Ab')
+const bb = document.querySelector('.Bb')
 
 document.body.onkeypress = event => {
   switch (event.keyCode) {
     case 97:
-      console.log('A')
+      console.log('C')
       break
 
     case 115:
-      console.log('S')
+      console.log('D')
       break
 
     case 100:
-      console.log('D')
+      console.log('E')
       break
 
     case 102:
@@ -28,16 +34,16 @@ document.body.onkeypress = event => {
       break
 
     case 104:
-      console.log('H')
+      console.log('A')
       break
 
     case 106:
-      console.log('J')
+      console.log('B')
       break
   }
 }
 
-c.onclick = () => {
+c.onclick = () =>{
   console.log('C')
 }
 
@@ -58,5 +64,21 @@ g.onclick = () => {
 }
 
 a.onclick = () => {
-  console.log('A')
+  console.log('Db')
+}
+
+a.onclick = () => {
+  console.log('Eb')
+}
+
+a.onclick = () => {
+  console.log('Gb')
+}
+
+a.onclick = () => {
+  console.log('Ab')
+}
+
+a.onclick = () => {
+  console.log('Bb')
 }

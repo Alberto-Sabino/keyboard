@@ -5,6 +5,7 @@ const f = document.querySelector('.F')
 const g = document.querySelector('.G')
 const a = document.querySelector('.A')
 const b = document.querySelector('.B')
+
 const db = document.querySelector('.Db')
 const eb = document.querySelector('.Eb')
 const gb = document.querySelector('.Gb')
@@ -63,22 +64,22 @@ g.onclick = () => {
   console.log('G')
 }
 
-a.onclick = () => {
-  console.log('Db')
+db.onclick = () => {
+  console.log('Db/C#')
 }
 
-a.onclick = () => {
-  console.log('Eb')
+eb.onclick = () => {
+  console.log('Eb/D#')
 }
 
-a.onclick = () => {
-  console.log('Gb')
+gb.onclick = () => {
+  console.log('Gb/F#')
 }
 
-a.onclick = () => {
-  console.log('Ab')
+ab.onclick = () => {
+  console.log('Ab/G#')
 }
 
-a.onclick = () => {
-  console.log('Bb')
+bb.onclick = () => {
+  console.log('Bb/A#')
 }
